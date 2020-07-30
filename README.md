@@ -13,8 +13,8 @@
 ## tweetsテーブル
 |Column|Type|Options|
 |------|----|-------|
-|image|text||
-|text|text||
+|image|string||
+|text|string||
 |user_id|integer|null: false, foreign_key: true|
 ### Association
 - belongs_to :user
